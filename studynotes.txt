@@ -1,0 +1,59 @@
+Javascript  - can support frontend, backend,mobile
+only run on browser. using Javascript engine
+in 2009, embedded JS enginge in C++, called node
+
+
+ECMAScript - Specification. (organization which take cares of specification)
+in 2015 - released ECMA6 or ECMA 2015
+Javascript - Programming language
+
+
+1. console.log('hello world)
+
+Variable - 
+    1. Before ES6 - used "var" 
+    2. after "let" used
+    3. case sensitive
+    4. undefined if not initialized 
+    5. best practice - declare each Variable in seperate line
+ use 'const' if value of variable not to change
+
+
+Primitives / reference variables typtes
+Dynamic variable type. can change variable type at run time
+
+Primitives  
+ 1. Number
+ 2. String
+ 3. Bolean
+ 4. undefined
+
+Reference types :
+ 1. Object
+ 2. Array
+ 3. Function
+
+object - (think of a person as a object)
+    multiple related variable inside an object
+    key -value
+    key are called properties
+    can be accessed using .dot notation or bracket notation
+    .dot is more percise
+    but to access property at runtime, then go for bracket notation
+
+
+list of objects - go to Array
+Array
+    declare by []
+    smiliar to list in python
+    array is a object
+
+Functions - statements set
+    parameter(definition) and arguements(calling statement) 
+    default value for an variable - undefined
+    'return' keyword to return some value
+
+
+
+
+ 
