@@ -18,6 +18,7 @@ Variable -
     5. best practice - declare each Variable in seperate line
  use 'const' if value of variable not to change
 
+typeof - returns object type
 
 Primitives / reference variables typtes
 Dynamic variable type. can change variable type at run time
@@ -47,13 +48,80 @@ Array
     declare by []
     smiliar to list in python
     array is a object
+    uses number to access an item in array 
+    useful methods in array 
+        1. forEach - (pass function to work on each object)
+        2. push - add an item to array at end
+    Array.isarray(arrayname) - will return true if this is array
+    Power of Array is inbuilt methods. explore based on use case
 
 Functions - statements set
     parameter(definition) and arguements(calling statement) 
     default value for an variable - undefined
     'return' keyword to return some value
+    we can function with missing arguements as well
+    in that case - missing parameters will get 'undefined'
+
+Object methods
+    Objects can store methods(functions) as well
+    methods are actions are performing on objects
+    
+
+    var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+        return this.firstName + " " + this.lastName;
+    }
+    };
+
+    this - tperson object that "owns" the fullName function
+    access object methods using .dot notation
+    name = person.fullName();
+    name = person.fullName; - access a method without the () parentheses, it will return the function definition:
+
+concatenation -> +. 
+    First both operands will be converted to same type before doing operation
+    If you add a string and a number, the result will be a string concatenation
+    var x = "10";
+    var y = 20;
+    var z = x + y;           // z will be 1020 (a string)
+
+Loop Condition
+    forLoop - syntax
+    2 ways to execute
+    option 1 -
+    for (i = 0; i<10 ; i ++){
+        text += i
+    }
+
+    option 2 - 
+    for (x in person){
+        text += person[x]
+    } // same as python concept
+
+Label : used to provide label for block of code. 
+    can jump to the label using break statement
+
+try / catch / throw / finally - same as python
+    throw used to create custom error
 
 
+"use strict"; Defines that JavaScript code should be executed in "strict mode".
+    indicate that the code should be executed in "strict mode".
+    with strict mode, you can not, for example, use undeclared variables.
+    this is kind of standard which need to follow
+    keywords defined for future javascript versions can be used here
+    syntax - "use strict";
 
+
+var/let/const - 3 keywords for variable definition
+    befor ECMA2015 - only var which provide options for global and local scope
+    after ECMA2015
+     let / const came - let provides block scope
+     const - not allow to rechange value
+        const oject - property can be changed but not able to reassign object
+     todo - <learn by using in program>
 
  
